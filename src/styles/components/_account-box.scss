@@ -1,0 +1,25 @@
+.account-box {
+  height: 7.5rem;
+  background-color: $color-grey-dark;
+  font-size: 1.6rem;
+  color: $color-white;
+  display: inline-flex;
+  width: 100%;
+
+  // @include clearfix;
+
+  &__menu {
+    display: inline-flex;
+    text-align: left;
+    border-right: 1px solid $color-white;
+    padding: 1rem;
+    width: 60%;
+  }
+
+  &__feature {
+    display: block;
+    text-align: right;
+    padding: 1rem;
+    width: 40%;
+  };
+}

@@ -1,0 +1,36 @@
+.footer {
+  background-color: $color-black;
+  color: $color-white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+
+  &__contact {
+    display: inline-block;
+    width: 70%;
+    background-color: $color-black;
+    padding: 2rem;
+  }
+
+  &__feedback {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    top: 0;
+  }
+
+  &__form {
+    &--left {
+      display: inline-block;
+      width: 25%;
+    }
+
+    &--right {
+      position: absolute;
+      top: 0;
+      display: inline-block;
+      width: 70%;
+    }
+  }
+}

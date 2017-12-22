@@ -1,0 +1,36 @@
+.flights-table {
+  text-align: left;
+  border-collapse: collapse;
+  background-color: $color-grey-light;
+  width: 100%;
+
+  th, td {
+    width: 20%;
+    font-size: 2rem;
+    color: $color-black;
+    font-weight: 700;
+    padding-left: 2rem;
+  }
+
+  &__head {
+    background-color: $color-white;
+
+    th {
+      border: 2px solid $color-yellow;
+      height: 4.2rem;
+    }
+  }
+
+  &__body {
+    background-color: $color-yellow-light;
+    tr {
+      border-bottom: 1px solid $color-yellow;
+      cursor: pointer;
+      height: 6rem;
+
+      &:hover {
+        background-color: $color-white;
+      }
+    }
+  }
+}
